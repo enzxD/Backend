@@ -15,6 +15,7 @@ com\portfolio\EFS\Repository\Rhys.class
 com\portfolio\EFS\Service\SEducacion.class
 com\portfolio\EFS\Security\Dto\JwtDto.class
 com\portfolio\EFS\Security\Dto\NuevoUsuario.class
+com\portfolio\EFS\Interface\IPersonaService.class
 com\portfolio\EFS\Service\Shys.class
 com\portfolio\EFS\Dto\dtoEducacion.class
 com\portfolio\EFS\Controller\CEducacion.class
