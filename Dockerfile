@@ -1,4 +1,4 @@
 FROM amazoncorretto:17-alpine-jdk
-MAINTAINER EnzoFSanchez
-COPY target/EFS-0.0.1-SNAPSHOT.jar EfS-app.jar
-ENTRYPOINT ["java","-jar","/EFS-app.jar"]
+MAINTAINER EFS
+COPY target/EFS-0.0.1-SNAPSHOT.jar EFS-0.0.1-SNAPSHOT.jar
+ENTRYPOINT ["java","-jar","/EFS-0.0.1-SNAPSHOT.jar"]
