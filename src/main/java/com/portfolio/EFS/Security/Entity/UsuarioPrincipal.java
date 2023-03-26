@@ -25,7 +25,7 @@ public class UsuarioPrincipal implements UserDetails {
     private  Collection<? extends GrantedAuthority> authorities;
 
     //constructor
-    public UsuarioPrincipal(String nombre, String nombreUsuario, String emial, String password, Collection<? extends GrantedAuthority> authorities) {
+    public UsuarioPrincipal(String nombre, String nombreUsuario, String email, String password, Collection<? extends GrantedAuthority> authorities) {
         this.nombre = nombre;
         this.nombreUsuario = nombreUsuario;
         this.email = email;
